@@ -1,0 +1,152 @@
+.navButton{
+    color: #e6cea0;
+    list-style-type: none;
+    float: right;
+    font-size: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    font-family: serif;
+}
+
+.navButton a:link, a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: #e6cea0;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background: #095786;
+    z-index: 900;
+}
+
+.logo{
+    padding-left: 20px;
+    height: 60px;
+    float: left;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(9,87,134,1) 0%, rgba(255,255,255,0) 70%);
+}
+
+#top{
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    color: #095786;
+    
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+}
+
+.container{
+    padding: 0;
+    width: 1130px;
+    height: 400px;
+    margin: auto;
+    margin-top:10px;
+    border: 2px hidden;
+    overflow: hidden;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.container .slider {
+    display: block;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    animation: animate 30s linear infinite;
+    
+}
+
+.container .slider img{
+    float: left;
+    width: 20%;
+}
+
+
+@keyframes animate{
+    
+    0%{left: 0}
+    8%{left: 0}
+    16%{left: -100%}
+    24%{left: -100%}
+    32%{left: -200%}
+    40%{left: -200%}
+    48%{left: -300%}
+    56%{left: -300%}
+    64%{left: -200%}
+    72%{left: -200%}
+    80%{left: -100%}
+    88%{left: -100%}
+    96%{left: 0}
+    100%{left: 0}
+}
+
+
+
+
+#n1{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 50px;
+    float: left;
+}
+
+#n2{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 100px;
+    float: right;
+}
+
+#n1, #n2{
+    display: inline;
+    
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+
+.choices img{
+    width: 500px;
+    height: 350px;
+}
+
+.choices p{
+    color: white;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    float: left;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: serif;
+}
+
